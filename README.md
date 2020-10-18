@@ -1,1 +1,1 @@
-# nba-shot-chart-python
+# NBA Shot Chart in Jupyter Notebook
