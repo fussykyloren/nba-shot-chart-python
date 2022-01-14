@@ -83,12 +83,12 @@ See the [Roadmap](#Roadmap) section for information on how this process will cha
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Roadmap
-- [] Add a form for information input.
-  - [] Hide code in Jupyter notebook when using form.
-- [] Update with better input validation for player's first and last name.
-- [] Adding download support for the image.
-- [] Add support for different color schemes.
-- [] Add support for teams.
+- [ ] Add a form for information input.
+  - [ ] Hide code in Jupyter notebook when using form.
+- [ ] Update with better input validation for player's first and last name.
+- [ ] Adding download support for the image.
+- [ ] Add support for different color schemes.
+- [ ] Add support for teams.
   
   <p align="right">(<a href="#top">back to top</a>)</p>
 
