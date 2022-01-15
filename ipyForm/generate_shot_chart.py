@@ -80,7 +80,9 @@ def generateShotChart(player_first_name, player_last_name, team_name, player_sea
     cb.set_ticks([0.0, 0.25, 0.5, 0.75, 1.0])
     cb.set_ticklabels(['0%','25%', '50%','75%', '100%'])
 
-    # fig.savefig('output/rwest2016.jpg', bbox_inches='tight', transparent=True)
+    fig.savefig("output/generatedShotCharts/" + player_first_name + "_" + player_last_name + "_" + player_season[0:4] + "_" + season_type[0:10] + ".jpg",
+                bbox_inches='tight', transparent=True)
+    
     with plt.ioff():
         with out:
             clear_output()
