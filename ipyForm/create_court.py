@@ -1,28 +1,5 @@
-from nba_api.stats.static import teams, players
 import matplotlib as mpl
 from matplotlib.pyplot import axis
-
-nba_teams = teams.get_teams()
-nba_players = players.get_players()
-
-# Function definitions
-def get_team_ID(team_check):
-    team_info = [team for team in nba_teams if team['full_name'] == team_check][0]
-
-    if team_info is None:
-        return -1
-    else:
-        return team_info['id']
-
-
-
-def get_player_ID(name_check):
-    player_info = [player for player in nba_players if player['full_name'] == name_check][0]
-
-    if player_info is None:
-        return -1
-    else:
-        return player_info['id']
 
 def create_court(axis, color='black'):
     # Add short corner 3pt lines
